@@ -100,7 +100,7 @@ if __name__ == "__main__":
     try:
         assert cam.isOpened()
     except AssertionError:
-        err_msg = Label(root, text="No Camera Detected!", font=('Arial', 50))
+        err_msg = Label(root, text="No Camera Detected!\nPlease make sure your camera is enabled", font=('Arial', 30))
         err_msg.grid(row=1, column=1)
         root.mainloop()
         quit(1)
