@@ -8,7 +8,7 @@ Utilizing the OpenCV library, this [program) detects your face with your device'
 ## Usage
 In Command Prompt or Powershell:
 ```
-C:\Users\...\eyeBlocker> python main.py
+C:\Users\...> python main.py
 ```
 To close, open the camera window and press `q`.
 
